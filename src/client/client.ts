@@ -12,4 +12,4 @@ export const search = (
   domain: string,
   baseUrl = 'http://localhost:8080'
 ): AxiosPromise<SearchResponse> =>
-  axios.get<SearchResponse>(`${baseUrl}/domains/${encodeURIComponent(domain)}/subdomains`)
+  axios.get<SearchResponse>(`${baseUrl}/domains/${domain}/subdomains`)

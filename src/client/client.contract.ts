@@ -30,10 +30,10 @@ describe('search contract', () => {
       const expectedBody = { domains: [{ name: 'test.com' }] }
       const notificationEmailInteraction = {
         state: 'subdomains exist for the given domain',
-        uponReceiving: `a request on /domains/${encodeURIComponent(domain)}/subdomains`,
+        uponReceiving: `a request on /domains/${domain}/subdomains`,
         withRequest: {
           method: 'GET',
-          path: `/domains/${encodeURIComponent(domain)}/subdomains`
+          path: `/domains/${domain}/subdomains`
         },
         willRespondWith: {
           status: 200,
