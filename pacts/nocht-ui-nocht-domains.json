@@ -1,0 +1,40 @@
+{
+  "consumer": {
+    "name": "nocht-ui"
+  },
+  "provider": {
+    "name": "nocht-domains"
+  },
+  "interactions": [
+    {
+      "description": "a request on /domains/domain.com/subdomains",
+      "providerState": "subdomains exist for the given domain",
+      "request": {
+        "method": "GET",
+        "path": "/domains/domain.com/subdomains"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "domains": [
+            {
+              "name": "test.com"
+            }
+          ]
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

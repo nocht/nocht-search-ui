@@ -1,0 +1,29 @@
+.App {
+  margin-top: 4rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.App-search-field {
+  font-size: 20px;
+  width: 50%;
+}
+
+.App-break {
+  height: 0;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.App-search-button {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.App-domain-list {
+  margin-top: 1rem;
+}

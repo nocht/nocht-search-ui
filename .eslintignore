@@ -1,0 +1,8 @@
+# Ignore built files except build/index.js
+build/*
+coverage/*
+src/mocks/*
+src/components/*
+src/assets/*
+src/custom-assets/*
+src/__snapshots__/*
