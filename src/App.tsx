@@ -40,7 +40,7 @@ const App: React.FC = () => {
       </div>
       <div className="App-break"></div>
       <div className="App-domain-list">
-        {foundDomains.length != 0 && (
+        {foundDomains.length !== 0 && (
           <Paper>
             <Table>
               <TableHead>
