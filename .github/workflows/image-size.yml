@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: image-actions
-      uses: calibreapp/image-actions@1.0.0
+      uses: calibreapp/image-actions@master
