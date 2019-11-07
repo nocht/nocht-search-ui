@@ -1,4 +1,4 @@
-name: CI
+name: image size check
 
 on: [push]
 
