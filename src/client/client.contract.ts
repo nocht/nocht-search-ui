@@ -1,5 +1,4 @@
-import { Pact, InteractionObject } from '@pact-foundation/pact'
-import * as Matchers from '@pact-foundation/pact/dsl/matchers'
+import { Pact, InteractionObject, Matchers } from '@pact-foundation/pact'
 import { search } from './client'
 
 const PROVIDER_PORT = 10001
