@@ -1,4 +1,4 @@
-name = "nocht-search-ui"
+name = "nocht-ui"
 type = "webpack"
 account_id = "096741b832c1e787ae5155662146cadd"
 workers_dev = true
